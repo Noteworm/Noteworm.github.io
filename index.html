@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noteworm</title>
+
+    <meta name="title" content="Noteworm">
+    <meta name="name" content="Noteworm">
+    <meta name="description" content="Noteworm">
+    <meta name="theme-color" content="#AA8AFB">
+    <meta name="keywords" content="editor, notes, app, Noteworm">
+    <meta name="author" content="Noteworm Development Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="INSERT URL HERE">
+    <meta property="og:title" content="Noteworm">
+    <meta property="og:description" content="Noteworm">
+    <meta property="og:image" content="./static/images/etc_gio_large.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="INSERT URL HERE">
+    <meta property="twitter:title" content="Noteworm">
+    <meta property="twitter:description" content="Noteworm">
+    <meta property="twitter:image" content="./static/images/etc_gio_large.jpg">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./static/css/main.css">
+
+    <script src="./static/js/views/AbstractView.js"></script>
+    <script src="./static/js/views/Home.js"></script>
+    <script src="./static/js/views/About.js"></script>
+    <script src="./static/js/views/Projects.js"></script>
+    <script src="./static/js/views/Project.js"></script>
+    <script src="./static/js/spa_manager.js" defer></script>
 </head>
+
 <body>
-    Nothing here yet...
+    <div id="nav">
+        <div class="nav-section">
+            <img src="./static/images/img.png" alt="">
+        </div>
+        <div class="nav-section">
+            <div class="nav-link">Link 1</div>
+            <div class="nav-link">Link 2</div>
+            <div class="nav-link">Link 3</div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="padding-content"></div>
+        <div id="app">
+
+        </div>
+    </div>
 </body>
+
 </html>
